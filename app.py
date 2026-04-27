@@ -456,8 +456,7 @@ st.header("Methodology / Limitations")
 st.write(
     "- Stock prediction is noisy and uncertain.\n"
     "- Sentiment does not guarantee market movement.\n"
-    "- Embeddings capture semantic meaning, not causality.\n"
-    "- This is not financial advice.\n"
+    "- Embeddings capture semantic meaning.\n"
     "- Chronological split is used to reduce leakage.\n"
     "- News is shifted so only past information is used."
 )

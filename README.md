@@ -18,9 +18,9 @@ This project predicts next-day stock direction (UP/DOWN) and next-day return usi
 4. Shift news features forward by one day to avoid leakage.
 5. Engineer price features and targets.
 6. Merge price + news features.
-7. Expand embeddings and optionally apply PCA (fit on train only).
+7. Expand embeddings.
 8. Train baselines and XGBoost models.
-9. Evaluate metrics and save artifacts.
+9. Evaluate metrics and save results.
 
 ## How to Run
 ```bash
@@ -32,6 +32,7 @@ streamlit run app.py
 1. Replace or append rows in `data/price.csv` and/or `data/news.csv`.
 2. In Streamlit, click **Recompute Embeddings (force)** to rebuild the cache.
 3. Click **Run Full Pipeline** to retrain models and refresh metrics.
+4. There is an option in the streamlit app where you can share new info, the section is calle Upload New Data (Price + News).
 
 The cached embeddings are stored in `data_processed/news_embeddings.parquet`.
 
