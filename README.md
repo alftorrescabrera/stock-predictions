@@ -120,8 +120,3 @@ stock_prediction_project/
 - Embeddings capture semantics, not causality.
 - This is not financial advice.
 
-## Future Improvements
-- Hyperparameter tuning and feature selection.
-- More robust time series validation.
-- Additional market signals and macro data.
-- Better error analysis and calibration.
