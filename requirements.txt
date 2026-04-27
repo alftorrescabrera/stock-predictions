@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+xgboost
+streamlit
+sentence-transformers
+transformers
+torch
+torchvision
+nbformat>=4.2.0
+pyarrow
+joblib
+matplotlib
+plotly
+watchdog
